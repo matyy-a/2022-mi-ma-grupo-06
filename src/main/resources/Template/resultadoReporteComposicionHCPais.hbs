@@ -59,7 +59,7 @@
         }
     })
 
-    let url = 'http://localhost:8080/composicion_hc_pais_back/{{nombre}}'
+    let url = 'https://dds-2022-mi-ma-grupo-06.herokuapp.com/composicion_hc_pais_back/{{nombre}}'
     fetch(url)
             .then( response => response.json() )
             .then( datos => mostrar(datos) )

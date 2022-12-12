@@ -49,7 +49,7 @@ document.getElementById("navComposicionHC").addEventListener('click', e=> {
 })
 
 function mandarAlBack() {
-    fetch('http://localhost:8080/registrarTrayecto', {
+    fetch('https://dds-2022-mi-ma-grupo-06.herokuapp.com/registrarTrayecto', {
         body: {
             idSesion: obtenerSesion()
         },

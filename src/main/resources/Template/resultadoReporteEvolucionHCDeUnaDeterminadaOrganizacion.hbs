@@ -72,7 +72,7 @@
     }
   })
 
-  let url = 'http://localhost:8080/evolucion_hc_organizacion_back/{{razon_social}}'
+  let url = 'https://dds-2022-mi-ma-grupo-06.herokuapp.com/evolucion_hc_organizacion_back/{{razon_social}}'
   fetch(url)
           .then( response => response.json() )
           .then( datos => mostrar(datos) )

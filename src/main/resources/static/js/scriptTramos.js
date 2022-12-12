@@ -512,7 +512,7 @@ function mandarDatosAlBack(callbackAEjecutarThen) {
     //fetch al back
 
         // Se ejecuta la request
-    fetch('http://localhost:8080/registrarTrayectoNuevo', {
+    fetch('https://dds-2022-mi-ma-grupo-06.herokuapp.com/registrarTrayectoNuevo', {
         headers: {
                 "Content-Type": "application/json",
                 "Authorization": localStorage.getItem("idSesion")

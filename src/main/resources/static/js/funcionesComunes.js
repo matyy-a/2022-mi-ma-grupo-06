@@ -38,7 +38,7 @@ const loginAlBack = async (username, password) => {
         password
     }
     // Se ejecuta la request
-    const backResponse = await fetch('http://localhost:8080/login', {
+    const backResponse = await fetch('https://dds-2022-mi-ma-grupo-06.herokuapp.com/login', {
         headers: {
             "Content-Type": "application/json"
         },
